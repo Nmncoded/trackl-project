@@ -285,7 +285,9 @@ hr {
 
 .score table {
     margin:  0 auto;
-    width: 90%;
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-all;
     border: 1px solid rgba(0,0,0,0.2);
     border-collapse: collapse;
     border-top-left-radius: .6rem;
