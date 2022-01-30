@@ -1,0 +1,136 @@
+@media screen and (max-width:968px) {
+    .links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: absolute;
+        text-align: center;
+        height: 100vh;
+        background-color: rgb(219, 98, 17);
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        max-width: 100%;
+        z-index: 98;
+        width: 100%;
+        display: none;
+    }
+    .logo {
+        position: relative;
+        z-index: 99;
+    }
+    .links li {
+        font-size: 3.2rem;
+        margin-top: 10rem;
+    }
+
+    .flex label {   
+        color: white;
+        font-size: 2.6rem;
+        display: inline-block;
+        position: relative;
+        z-index: 99;
+    }
+    #toggle:checked ~ .links {
+        display: inline-block;
+    }
+
+    /* hero section */
+
+    .hero-h1 {
+        text-align: center;
+    }
+
+    /* file section */
+
+    .file {
+        
+        justify-content: space-between;
+    }
+
+    .pdf, .word, .image, .video {
+        width: 50%;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .pdf span, .word span, .image span, .video span {
+        font-size: 3.4rem;
+    }
+
+    /* monitor section */
+    .monitor {
+        flex-direction: column-reverse;
+    }
+    .para-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .para-sec h2 {
+        font-size: 4rem;
+        text-align: center;
+    }
+    .para-sec p {
+        text-align: center;
+        font-size: 2.6rem;
+        padding: 0 2rem;
+    }
+    .para-btn {
+        width: 100%;
+        
+    }
+    .img-sec {
+        margin-bottom: 3rem;
+        width: 100%;
+    }
+
+    /* join-us section */
+
+    .basic {
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+    .footer-section {
+        justify-content: space-evenly;
+    }
+    .social-links {
+        justify-content: space-evenly;
+    }
+    .feature, .support, .contact, .company-name {
+        width: 40%;
+        margin-bottom: 3rem;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:710px) {
+    .container {
+        max-width: 710px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .hero-h1 {
+        font-size: 5rem;
+    }
+    .file {
+        flex-direction: column;
+    }
+    .pdf, .word, .image, .video {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:508px) {
+    .container {
+        max-width: 710px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hero-h1 {
+        font-size: 4rem;
+    }
+}
